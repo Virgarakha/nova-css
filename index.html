@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVACSS</title>
+    <link rel="stylesheet" href="asset/components/styles/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <h1 class="warn">Belum bisa diakses pada tampilan desktop, sabar ya...</h1>
+    <div class="nav">
+      <div class="navbox">
+        <div class="logo">
+          <img src="asset/components/img/logo.png" alt="" />
+          <p>NovaCSS</p>
+        </div>
+        <div class="hamburger" onclick="navbar()">
+          <div class="br1"></div>
+          <div class="br2"></div>
+          <div class="br3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="boxnav hidden" id="nav">
+      <h2>Novacss</h2>
+      <div class="line"></div>
+      <div class="boxnav2">
+        <div class="link2">
+          <li><a href="asset/components/docs.html">Docs</a></li>
+          <li><a href="asset/components/docs.html#component">Components</a></li>
+        </div>
+        <div class="link2">
+          <li><a href="asset/components/docs.html#comment">Comment</a></li>
+          <li><a href="asset/components/themes.html">Themes</a></li>
+        </div>
+        <div class="link2">
+          <li><a href="asset/components/docs.html">CDN</a></li>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <div class="isi">
+        <div class="iklan">
+          <a href="#">baca docs sekarang! click me ></a>
+        </div>
+        <img data-aos="fade-up" data-aos-duration="1000" src="asset/components/img/logo.png" alt="" />
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">New Framework <span>CSS</span> dari <span>NOVA</span></h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" >
+          framework ini dibuat untuk mempermudah styling pada website
+          portofolio, e - commerce dll. framework ini dibuat pada tahun 2024
+        </p>
+        <button data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" >Get Started</button>
+      </div>
+    </div>
+
+    <div class="get">
+      <div class="getbox">
+        <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150" class="getitem">
+          <img src="asset/components/img/code.svg" alt="" />
+          <h2>Mulailah dengan cara apapun yang anda inginkan</h2>
+          <p>
+            Langsung memulai membangun dengan novacss gunakan npm, instal melalu
+            manajer paket, atau unduh kode sumber.
+          </p>
+          <a href="">Baca dokument instalasi --></a>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150" class="getitem">
+          <img
+            style="background: none"
+            src="asset/components/img/package (1).svg"
+            alt=""
+          />
+          <h2>Install melalui manajer paket</h2>
+          <p>Install file Sass dan seumber novacss melalui npm penginstalan</p>
+          <a href="">Baca dokument instalasi --></a>
+          <div class="code">
+            <p>$ npm init -y</p>
+          </div>
+          <div class="code">
+            <p>$ npm install @rakaror777/nova-css</p>
+          </div>
+          <div style="padding: 5px" class="code">
+            <img
+              style="background: none"
+              src="asset/components/img/codingan.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150" class="getitem">
+          <img
+            style="background: none"
+            src="asset/components/img/edit (2).svg"
+            alt=""
+          />
+          <h2>Sesuaikan semuanya dengan Sass</h2>
+          <p>
+            Nova menggunakan sass untuk mempermudah styling. Sesuaikan semua
+            file css anda dengan sass dan gunakan novacss untuk styling.
+          </p>
+          <a href="">Baca dokumen instalasi --></a>
+          <h2>Sertakan semua Sass Novacss</h2>
+          <p>
+            import satu stylesheet dan anda akan memulai menggunakan novacss
+          </p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="getitem">
+          <img 
+            style="background: none"
+            src="asset/components/img/mouse-pointer.svg"
+            alt=""
+          />
+          <h2>Penggunaan Novacss</h2>
+          <p>cara menggunakan komponen dari novacss</p>
+          <img
+            style="background: none; width: 100%;"
+            src="asset/components/img/codehtml.jpg"
+            alt=""
+          />
+          <div class="code">
+            <p>output: <span style="color: white">Hello Wold!</span></p>
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="getitem">
+          <img src="asset/components/img/droplet.svg" alt="" />
+          <h2>Jadikan milik anda dengan tema novacss resmi</h2>
+          <p>
+            Bawa novacss ke level berikutnya dengan tema premium dari pasar
+            resmi novacss themes.
+          </p>
+          <a href="">Telusuri tema novacss</a>
+        </div>
+      </div>
+    </div>
+    <div class="ftr">
+      <div class="ftrbox">
+        <div class="boxd">
+          <img src="asset/components/img/logo.png" alt="" />
+          <h1>Novacss</h1>
+        </div>
+        <p>Desain dan dikembangkan dengan tujuan untuk membantu frontend developer dengan menjadikan perkerjaan menadi singkat.</p>
+        <p>Code licensed ALT, docs PTRAWR</p>
+        <p>Currently v1.02</p>
+      </div>
+    </div>
+
+    <script>
+      function navbar() {
+        const hide = document.getElementById("nav");
+        hide.classList.toggle("hidden");
+      }
+    </script>
+  </body>
+</html>

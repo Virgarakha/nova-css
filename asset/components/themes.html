@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <h1 class="warn">Belum bisa diakses pada tampilan desktop, sabar ya...</h1>
+    <div class="nav">
+      <div class="navbox">
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+          <p>NovaCSS</p>
+        </div>
+        <div class="hamburger" onclick="navbar()">
+          <div class="br1"></div>
+          <div class="br2"></div>
+          <div class="br3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="boxnav hidden" id="nav">
+      <h2>Novacss</h2>
+      <div class="line"></div>
+      <div class="boxnav2">
+        <div class="link2">
+          <li><a href="docs.html">Docs</a></li>
+          <li><a href="#component">Component</a></li>
+        </div>
+        <div class="link2">
+          <li><a href="#comment">Coment</a></li>
+          <li><a href="">Themes</a></li>
+        </div>
+        <div class="link2">
+          <li><a href="docs.html">CDN</a></li>
+        </div>
+      </div>
+    </div>
+    <div style="padding-top: 5vh;" class="banner">
+        <div class="isi">
+            <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" src="img/logo.png" alt="">
+            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">Welcome To <span>Themes</span></h1>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">menyediakan beberapa template website yang bisa kamu kenakan website yang dibuat full menggunakan framework ini</p>
+        </div>
+    </div>
+    <div style="min-height: 100vh;" class="get">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="getbox">
+            <h2 style="color: white;">Template belum tersedia :p</h2>
+            <div class="code">
+                <p style="color: gray;">sabar ya :p</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ftr">
+        <div class="ftrbox">
+          <div class="boxd">
+            <img src="img/logo.png" alt="" />
+            <h1>Novacss</h1>
+          </div>
+          <p>Desain dan dikembangkan dengan tujuan untuk membantu frontend developer dengan menjadikan perkerjaan menadi singkat.</p>
+          <p>Code licensed ALT, docs PTRAWR</p>
+          <p>Currently v1.02</p>
+        </div>
+      </div>
+    
+
+    <script>
+        function navbar() {
+          const hide = document.getElementById("nav");
+          hide.classList.toggle("hidden");
+        }
+      </script>
+</body>
+</html>

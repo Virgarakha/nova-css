@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    display: none;
+}
+.warn {
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 708px) {
+
+    .warn {
+        display:none;
+    }
+
+    body {
+        background-color: #2e2e2e;
+        display: block;
+    }
+    
+.navbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    background-color: #541bcf;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.logo P {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo h1 span {
+    color: rgb(255, 255, 255);
+}
+
+.boxnav {
+    background-color: #541bcf;
+    height: 93vh;
+    display: block;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    color: white;
+    padding: 20px;
+    margin-top: 7vh;
+}
+
+.link2 {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.link2 li {
+    list-style: none;
+}
+
+.line {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.link2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.link2 li a:hover {
+    color: gray;
+}
+
+.hamburger button {
+    background: none;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.br1{
+    margin-bottom: 4px;
+    width: 15px;
+    height: 1px;
+    background-color: white;
+}
+.br3{
+    width: 15px;
+    height: 1px;
+    background-color: white;
+    margin-top: 4px;
+}
+.br2{
+    width: 15px;
+    height: 1px;
+    background-color: white;
+}
+
+    .banner {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .isi {
+        padding-top: 10vh;
+        color: white;
+        text-align: center;
+    }
+    
+    .isi h1 span {
+        color: #541bcf;
+    }
+    
+    .isi button {
+        background: none;
+        border: none;
+        color: white;
+        background-color: #541bcf;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    
+    .isi button:hover {
+        background-color: #3d1693;
+        color: #fff;
+    }
+    
+    .isi img {
+        width: 25%;
+    }
+    
+    .iklan {
+        margin-bottom: 5vh;
+    }
+    
+    
+    .iklan a {
+        background-color: rgb(238, 217, 29);
+        color: black;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 7px;
+        text-decoration: none;
+    }
+
+    .get {
+        background-color: #131313;
+        box-shadow: 0 -30px 40px #131313;
+        border-radius: 20px 20px 0 0;
+        padding: 20px;
+        margin-top: 10vh;
+    }
+
+    .getbox {
+        padding: 20px;
+        background-color: #000000;
+        border-radius: 10px;
+    }
+
+    .getitem {
+        margin-bottom: 10vh;
+    }
+
+    .getitem img{
+        background-color: #3e16938b;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .getitem h2 {
+        color: white;
+        margin-top: 10px;
+    }
+    .getitem p {
+        color: gray;
+        margin: 10px 0;
+    }
+
+    .getitem a {
+        text-decoration: none;
+        color: #3d1693;
+        font-size: 10px;
+    }
+    .code {
+        background-color: #2e2e2e74;
+        padding: 5px 20px;
+        margin: 10px 0;
+        border-radius: 5px;
+    }
+
+    .code img {
+        width: 100%;
+    }
+
+    .ftrbox {
+        padding: 20px;
+        color: white;
+    }
+
+    .boxd {
+        display: flex;
+        gap: 10px;
+        color: white;
+        align-items: center;
+    }
+
+    .boxd img {
+        width: 40px;
+    }
+
+    .ftrbox p {
+        margin-top: 20px;
+        color: gray;
+    }
+}

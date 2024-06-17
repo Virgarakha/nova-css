@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docs-Nvacss</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <h1 class="warn">Belum bisa diakses pada tampilan desktop, sabar ya...</h1>
+    <div class="nav">
+      <div class="navbox">
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+          <p>NovaCSS</p>
+        </div>
+        <div class="hamburger" onclick="navbar()">
+          <div class="br1"></div>
+          <div class="br2"></div>
+          <div class="br3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="boxnav hidden" id="nav">
+      <h2>Novacss</h2>
+      <div class="line"></div>
+      <div class="boxnav2">
+        <div class="link2">
+          <li><a href="">Docs</a></li>
+          <li><a href="#component">Component</a></li>
+        </div>
+        <div class="link2">
+          <li><a href="#comment">Coment</a></li>
+          <li><a href="themes.html">Themes</a></li>
+        </div>
+        <div class="link2">
+          <li><a href="">CDN</a></li>
+        </div>
+      </div>
+    </div>
+    
+    <div style="padding-top: 15vh; margin-top: 0" class="get">
+        <div class="getbox">
+            <img style="background: none; width: 100px;" src="img/logo.png" alt="">
+            <div class="getitem">
+          <h2>Mulai lah dengan novacss</h2>
+          <p style="font-size: 15px">
+            novacss adalah framework css yang dibuat untuk mempermudah styling
+            pada website portofolio, e - commerce dll. framework ini dibuat pada
+            tahun 2024
+          </p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="getitem">
+          <h2>Quick Start</h2>
+          <p style="font-size: 15px">
+            Get started by incluiding novacss production ready css and via npm
+          </p>
+          <h2>Gunakan CDN</h2>
+          <div class="code">
+            <p>https://cdn.jsdelivr.net/gh/Virgarakha/nova-framework/dist/css/main.min.css
+            </p>
+          </div>
+          <h2>Gunakan NPM</h2>
+          <div class="code">
+            <p>$ npm init -y</p>
+          </div>
+          <div class="code">
+            <p>$ npm install @rakaror777/nova-css</p>
+          </div>
+          <div class="code">
+            <img style="background: none" src="img/codingan.jpg" alt="" />
+          </div>
+          <p>Lets go using this framework!</p>
+        </div>
+        <div  class="getitem">
+          <h2>Components</h2>
+          <p>Semua components yang ada di framework ini:</p>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Padding</h2>
+            <p>pr-1 = padding-right: 10px;</p>
+            <p>pr-2 = padding-right: 20px;</p>
+            <p>pr-3 = padding-right: 30px;</p>
+            <p>pr-4 = padding-right: 40px;</p>
+            <p>Dst.</p>
+            <p>pl-1 = padding-left: 10px;</p>
+            <p>pl-2 = padding-left: 20px;</p>
+            <p>pl-3 = padding-left: 30px;</p>
+            <p>pl-4 = padding-left: 40px;</p>
+            <p>Dst</p>
+            <p>px-1 = padding: 0 10px;</p>
+            <p>px-2 = padding: 0 20px;</p>
+            <p>px-3 = padding: 0 30px;</p>
+            <p>px-4 = padding: 0 40px;</p>
+            <p>Dst.</p>
+            <p>py-1 = padding: 10px 0;</p>
+            <p>py-2 = padding: 20px 0;</p>
+            <p>py-3 = padding: 30px 0;</p>
+            <p>py-4 = padding: 40px 0;</p>
+            <p>Dst</p>
+            <p>p-1 = padding: 10px;</p>
+            <p>p-2 = padding: 20px;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Margin</h2>
+            <p>mr-1 = margin-right: 10px;</p>
+            <p>mr-2 = margin-right: 20px;</p>
+            <p>mr-3 = margin-right: 30px;</p>
+            <p>mr-4 = margin-right: 40px;</p>
+            <p>Dst.</p>
+            <p>ml-1 = margin-left: 10px;</p>
+            <p>ml-2 = margin-left: 20px;</p>
+            <p>ml-3 = margin-left: 30px;</p>
+            <p>ml-4 = margin-left: 40px;</p>
+            <p>Dst</p>
+            <p>mx-1 = margin: 0 10px;</p>
+            <p>mx-2 = margin: 0 20px;</p>
+            <p>mx-3 = margin: 0 30px;</p>
+            <p>mx-4 = margin: 0 40px;</p>
+            <p>Dst.</p>
+            <p>my-1 = margin: 10px 0;</p>
+            <p>my-2 = margin: 20px 0;</p>
+            <p>my-3 = margin: 30px 0;</p>
+            <p>my-4 = margin: 40px 0;</p>
+            <p>Dst</p>
+            <p>m-1 = margin: 10px</p>
+            <p>m-2 = margin: 20px</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" id="component" class="code">
+            <h2>Color</h2>
+            <p class="c-bisque">c-bisque</p>
+            <p class="c-blanchedalmond">c-blanchedalmond</p>
+            <p class="c-blueviolet">c-blueviolet</p>
+            <p class="c-brown">c-brown</p>
+            <p class="c-burlywood">c-burlywood</p>
+            <p class="c-cadetblue">c-cadetblue</p>
+            <p class="c-chartreuse">c-chartreuse</p>
+            <p class="c-chocolate">c-chocolate</p>
+            <p class="c-coral">c-coral</p>
+            <p class="c-cornflowerblue">c-cornflowerblue</p>
+            <p class="c-cornsilk">c-cornsilk</p>
+            <p class="c-crimson">c-crimson</p>
+            <p class="c-darkblue">c-darkblue</p>
+            <p class="c-darkcyan">c-darkcyan</p>
+            <p class="c-darkgoldenrod">c-darkgoldenrod</p>
+            <p class="c-darkgray">c-darkgray</p>
+            <p class="c-darkgreen">c-darkgreen</p>
+            <p class="c-darkkhaki">c-darkkhaki</p>
+            <p class="c-darkmagenta">c-darkmagenta</p>
+            <p class="c-darkolivegreen">c-darkolivegreen</p>
+            <p class="c-darkorange">c-darkorange</p>
+            <p class="c-darkorchid">c-darkorchid</p>
+            <p class="c-darkred">c-darkred</p>
+            <p class="c-darksalmon">c-darksalmon</p>
+            <p class="c-darkseagreen">c-darkseagreen</p>
+            <p class="c-darkslateblue">c-darkslateblue</p>
+            <p class="c-darkslategray">c-darkslategray</p>
+            <p class="c-darkturquoise">c-darkturquoise</p>
+            <p class="c-darkviolet">c-darkviolet</p>
+            <p class="c-deeppink">c-deeppink</p>
+            <p class="c-deepskyblue">c-deepskyblue</p>
+            <p class="c-dimgray">c-dimgray</p>
+            <p class="c-dodgerblue">c-dodgerblue</p>
+            <p class="c-firebrick">c-firebrick</p>
+            <p class="c-floralwhite">c-floralwhite</p>
+            <p class="c-forestgreen">c-forestgreen</p>
+            <p class="c-fuchsia">c-fuchsia</p>
+            <p class="c-gainsboro">c-gainsboro</p>
+            <p class="c-ghostwhite">c-ghostwhite</p>
+            <p class="c-gold">c-gold</p>
+            <p class="c-goldenrod">c-goldenrod</p>
+            <p class="c-greenyellow">c-greenyellow</p>
+            <p class="c-honeydew">c-honeydew</p>
+            <p class="c-hotpink">c-hotpink</p>
+            <p class="c-indianred">c-indianred</p>
+            <p class="c-indigo">c-indigo</p>
+            <p class="c-ivory">c-ivory</p>
+            <p class="c-khaki">c-khaki</p>
+            <p class="c-lavender">c-lavender</p>
+            <p class="c-lavenderblush">c-lavenderblush</p>
+            <p class="c-lawngreen">c-lawngreen</p>
+            <p class="c-lemonchiffon">c-lemonchiffon</p>
+            <p class="c-lightblue">c-lightblue</p>
+            <p class="c-lightcoral">c-lightcoral</p>
+            <p class="c-lightcyan">c-lightcyan</p>
+            <p class="c-lightgoldenrodyellow">c-lightgoldenrodyellow</p>
+            <p class="c-lightgreen">c-lightgreen</p>
+            <p class="c-lightgrey">c-lightgrey</p>
+            <p class="c-lightpink">c-lightpink</p>
+            <p class="c-lightsalmon">c-lightsalmon</p>
+            <p class="c-lightseagreen">c-lightseagreen</p>
+            <p class="c-lightskyblue">c-lightskyblue</p>
+            <p class="c-lightslategray">c-lightslategray</p>
+            <p class="c-lightsteelblue">c-lightsteelblue</p>
+            <p class="c-lightyellow">c-lightyellow</p>
+            <p class="c-lime">c-lime</p>
+            <p class="c-limegreen">c-limegreen</p>
+            <p class="c-linen">c-linen</p>
+            <p class="c-mediumaquamarine">c-mediumaquamarine</p>
+            <p class="c-mediumblue">c-mediumblue</p>
+            <p class="c-mediumorchid">c-mediumorchid</p>
+            <p class="c-mediumpurple">c-mediumpurple</p>
+            <p class="c-mediumseagreen">c-mediumseagreen</p>
+            <p class="c-mediumslateblue">c-mediumslateblue</p>
+            <p class="c-mediumspringgreen">c-mediumspringgreen</p>
+            <p class="c-mediumturquoise">c-mediumturquoise</p>
+            <p class="c-mediumvioletred">c-mediumvioletred</p>
+            <p class="c-midnightblue">c-midnightblue</p>
+            <p class="c-mintcream">c-mintcream</p>
+            <p class="c-mistyrose">c-mistyrose</p>
+            <p class="c-moccasin">c-moccasin</p>
+            <p class="c-navajowhite">c-navajowhite</p>
+            <p class="c-oldlace">c-oldlace</p>
+            <p class="c-olivedrab">c-olivedrab</p>
+            <p class="c-orange">c-orange</p>
+            <p class="c-orangered">c-orangered</p>
+            <p class="c-orchid">c-orchid</p>
+            <p class="c-palegoldenrod">c-palegoldenrod</p>
+            <p class="c-palegreen">c-palegreen</p>
+            <p class="c-paleturquoise">c-paleturquoise</p>
+            <p class="c-palevioletred">c-palevioletred</p>
+            <p class="c-papayawhip">c-papayawhip</p>
+            <p class="c-peachpuff">c-peachpuff</p>
+            <p class="c-peru">c-peru</p>
+            <p class="c-pink">c-pink</p>
+            <p class="c-plum">c-plum</p>
+            <p class="c-powderblue">c-powderblue</p>
+            <p class="c-rosybrown">c-rosybrown</p>
+            <p class="c-royalblue">c-royalblue</p>
+            <p class="c-saddlebrown">c-saddlebrown</p>
+            <p class="c-salmon">c-salmon</p>
+            <p class="c-sandybrown">c-sandybrown</p>
+            <p class="c-seagreen">c-seagreen</p>
+            <p class="c-seashell">c-seashell</p>
+            <p class="c-sienna">c-sienna</p>
+            <p class="c-silver">c-silver</p>
+            <p class="c-skyblue">c-skyblue</p>
+            <p class="c-slateblue">c-slateblue</p>
+            <p class="c-slategray">c-slategray</p>
+            <p class="c-snow">c-snow</p>
+            <p class="c-springgreen">c-springgreen</p>
+            <p class="c-steelblue">c-steelblue</p>
+            <p class="c-tan">c-tan</p>
+            <p class="c-thistle">c-thistle</p>
+            <p class="c-tomato">c-tomato</p>
+            <p class="c-turquoise">c-turquoise</p>
+            <p class="c-violet">c-violet</p>
+            <p class="c-wheat">c-wheat</p>
+            <p class="c-whitesmoke">c-whitesmoke</p>
+            <p class="c-yellowgreen">c-yellowgreen</p>
+            <p class="c-amber">c-amber</p>
+            <p class="c-amethyst">c-amethyst</p>
+            <p class="c-apricot">c-apricot</p>
+            <p class="c-aquamarine">c-aquamarine</p>
+            <p class="c-auburn">c-auburn</p>
+            <p class="c-azure">c-azure</p>
+            <p class="c-beige">c-beige</p>
+            <p class="c-bistre">c-bistre</p>
+            <p class="c-black">c-black</p>
+            <p class="c-blond">c-blond</p>
+            <p class="c-blue">c-blue</p>
+            <p class="c-boysenberry">c-boysenberry</p>
+            <p class="c-brass">c-brass</p>
+            <p class="c-bronze">c-bronze</p>
+            <p class="c-bubblegum">c-bubblegum</p>
+            <p class="c-burgundy">c-burgundy</p>
+            <p class="c-byzantium">c-byzantium</p>
+            <p class="c-candyapplered">c-candyapplered</p>
+            <p class="c-carmine">c-carmine</p>
+            <p class="c-carnationpink">c-carnationpink</p>
+            <p class="c-celadon">c-celadon</p>
+            <p class="c-cerise">c-cerise</p>
+            <p class="c-cerulean">c-cerulean</p>
+            <p class="c-champagne">c-champagne</p>
+            <p class="c-charcoal">c-charcoal</p>
+            <p class="c-cinnabar">c-cinnabar</p>
+            <p class="c-citrine">c-citrine</p>
+            <p class="c-claret">c-claret</p>
+            <p class="c-cobaltblue">c-cobaltblue</p>
+            <p class="c-coffee">c-coffee</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Background Color</h2>
+            <p class="bgc-bisque">bgc-bisque</p>
+            <p class="bgc-blanchedalmond">bgc-blanchedalmond</p>
+            <p class="bgc-blueviolet">bgc-blueviolet</p>
+            <p class="bgc-brown">bgc-brown</p>
+            <p class="bgc-burlywood">bgc-burlywood</p>
+            <p class="bgc-cadetblue">bgc-cadetblue</p>
+            <p class="bgc-chartreuse">bgc-chartreuse</p>
+            <p class="bgc-chocolate">bgc-chocolate</p>
+            <p class="bgc-coral">bgc-coral</p>
+            <p class="bgc-cornflowerblue">bgc-cornflowerblue</p>
+            <p class="bgc-cornsilk">bgc-cornsilk</p>
+            <p class="bgc-crimson">bgc-crimson</p>
+            <p class="bgc-darkblue">bgc-darkblue</p>
+            <p class="bgc-darkcyan">bgc-darkcyan</p>
+            <p class="bgc-darkgoldenrod">bgc-darkgoldenrod</p>
+            <p class="bgc-darkgray">bgc-darkgray</p>
+            <p class="bgc-darkgreen">bgc-darkgreen</p>
+            <p class="bgc-darkkhaki">bgc-darkkhaki</p>
+            <p class="bgc-darkmagenta">bgc-darkmagenta</p>
+            <p class="bgc-darkolivegreen">bgc-darkolivegreen</p>
+            <p class="bgc-darkorange">bgc-darkorange</p>
+            <p class="bgc-darkorchid">bgc-darkorchid</p>
+            <p class="bgc-darkred">bgc-darkred</p>
+            <p class="bgc-darksalmon">bgc-darksalmon</p>
+            <p class="bgc-darkseagreen">bgc-darkseagreen</p>
+            <p class="bgc-darkslateblue">bgc-darkslateblue</p>
+            <p class="bgc-darkslategray">bgc-darkslategray</p>
+            <p class="bgc-darkturquoise">bgc-darkturquoise</p>
+            <p class="bgc-darkviolet">bgc-darkviolet</p>
+            <p class="bgc-deeppink">bgc-deeppink</p>
+            <p class="bgc-deepskyblue">bgc-deepskyblue</p>
+            <p class="bgc-dimgray">bgc-dimgray</p>
+            <p class="bgc-dodgerblue">bgc-dodgerblue</p>
+            <p class="bgc-firebrick">bgc-firebrick</p>
+            <p class="bgc-floralwhite">bgc-floralwhite</p>
+            <p class="bgc-forestgreen">bgc-forestgreen</p>
+            <p class="bgc-fuchsia">bgc-fuchsia</p>
+            <p class="bgc-gainsboro">bgc-gainsboro</p>
+            <p class="bgc-ghostwhite">bgc-ghostwhite</p>
+            <p class="bgc-gold">bgc-gold</p>
+            <p class="bgc-goldenrod">bgc-goldenrod</p>
+            <p class="bgc-greenyellow">bgc-greenyellow</p>
+            <p class="bgc-honeydew">bgc-honeydew</p>
+            <p class="bgc-hotpink">bgc-hotpink</p>
+            <p class="bgc-indianred">bgc-indianred</p>
+            <p class="bgc-indigo">bgc-indigo</p>
+            <p class="bgc-ivory">bgc-ivory</p>
+            <p class="bgc-khaki">bgc-khaki</p>
+            <p class="bgc-lavender">bgc-lavender</p>
+            <p class="bgc-lavenderblush">bgc-lavenderblush</p>
+            <p class="bgc-lawngreen">bgc-lawngreen</p>
+            <p class="bgc-lemonchiffon">bgc-lemonchiffon</p>
+            <p class="bgc-lightblue">bgc-lightblue</p>
+            <p class="bgc-lightcoral">bgc-lightcoral</p>
+            <p class="bgc-lightcyan">bgc-lightcyan</p>
+            <p class="bgc-lightgoldenrodyellow">bgc-lightgoldenrodyellow</p>
+            <p class="bgc-lightgreen">bgc-lightgreen</p>
+            <p class="bgc-lightgrey">bgc-lightgrey</p>
+            <p class="bgc-lightpink">bgc-lightpink</p>
+            <p class="bgc-lightsalmon">bgc-lightsalmon</p>
+            <p class="bgc-lightseagreen">bgc-lightseagreen</p>
+            <p class="bgc-lightskyblue">bgc-lightskyblue</p>
+            <p class="bgc-lightslategray">bgc-lightslategray</p>
+            <p class="bgc-lightsteelblue">bgc-lightsteelblue</p>
+            <p class="bgc-lightyellow">bgc-lightyellow</p>
+            <p class="bgc-lime">bgc-lime</p>
+            <p class="bgc-limegreen">bgc-limegreen</p>
+            <p class="bgc-linen">bgc-linen</p>
+            <p class="bgc-mediumaquamarine">bgc-mediumaquamarine</p>
+            <p class="bgc-mediumblue">bgc-mediumblue</p>
+            <p class="bgc-mediumorchid">bgc-mediumorchid</p>
+            <p class="bgc-mediumpurple">bgc-mediumpurple</p>
+            <p class="bgc-mediumseagreen">bgc-mediumseagreen</p>
+            <p class="bgc-mediumslateblue">bgc-mediumslateblue</p>
+            <p class="bgc-mediumspringgreen">bgc-mediumspringgreen</p>
+            <p class="bgc-mediumturquoise">bgc-mediumturquoise</p>
+            <p class="bgc-mediumvioletred">bgc-mediumvioletred</p>
+            <p class="bgc-midnightblue">bgc-midnightblue</p>
+            <p class="bgc-mintcream">bgc-mintcream</p>
+            <p class="bgc-mistyrose">bgc-mistyrose</p>
+            <p class="bgc-moccasin">bgc-moccasin</p>
+            <p class="bgc-navajowhite">bgc-navajowhite</p>
+            <p class="bgc-oldlace">bgc-oldlace</p>
+            <p class="bgc-olivedrab">bgc-olivedrab</p>
+            <p class="bgc-orange">bgc-orange</p>
+            <p class="bgc-orangered">bgc-orangered</p>
+            <p class="bgc-orchid">bgc-orchid</p>
+            <p class="bgc-palegoldenrod">bgc-palegoldenrod</p>
+            <p class="bgc-palegreen">bgc-palegreen</p>
+            <p class="bgc-paleturquoise">bgc-paleturquoise</p>
+            <p class="bgc-palevioletred">bgc-palevioletred</p>
+            <p class="bgc-papayawhip">bgc-papayawhip</p>
+            <p class="bgc-peachpuff">bgc-peachpuff</p>
+            <p class="bgc-peru">bgc-peru</p>
+            <p class="bgc-pink">bgc-pink</p>
+            <p class="bgc-plum">bgc-plum</p>
+            <p class="bgc-powderblue">bgc-powderblue</p>
+            <p class="bgc-rosybrown">bgc-rosybrown</p>
+            <p class="bgc-royalblue">bgc-royalblue</p>
+            <p class="bgc-saddlebrown">bgc-saddlebrown</p>
+            <p class="bgc-salmon">bgc-salmon</p>
+            <p class="bgc-sandybrown">bgc-sandybrown</p>
+            <p class="bgc-seagreen">bgc-seagreen</p>
+            <p class="bgc-seashell">bgc-seashell</p>
+            <p class="bgc-sienna">bgc-sienna</p>
+            <p class="bgc-silver">bgc-silver</p>
+            <p class="bgc-skyblue">bgc-skyblue</p>
+            <p class="bgc-slateblue">bgc-slateblue</p>
+            <p class="bgc-slategray">bgc-slategray</p>
+            <p class="bgc-snow">bgc-snow</p>
+            <p class="bgc-springgreen">bgc-springgreen</p>
+            <p class="bgc-steelblue">bgc-steelblue</p>
+            <p class="bgc-tan">bgc-tan</p>
+            <p class="bgc-thistle">bgc-thistle</p>
+            <p class="bgc-tomato">bgc-tomato</p>
+            <p class="bgc-turquoise">bgc-turquoise</p>
+            <p class="bgc-violet">bgc-violet</p>
+            <p class="bgc-wheat">bgc-wheat</p>
+            <p class="bgc-whitesmoke">bgc-whitesmoke</p>
+            <p class="bgc-yellowgreen">bgc-yellowgreen</p>
+            <p class="bgc-amber">bgc-amber</p>
+            <p class="bgc-amethyst">bgc-amethyst</p>
+            <p class="bgc-apricot">bgc-apricot</p>
+            <p class="bgc-aquamarine">bgc-aquamarine</p>
+            <p class="bgc-auburn">bgc-auburn</p>
+            <p class="bgc-azure">bgc-azure</p>
+            <p class="bgc-beige">bgc-beige</p>
+            <p class="bgc-bistre">bgc-bistre</p>
+            <p class="bgc-black">bgc-black</p>
+            <p class="bgc-blond">bgc-blond</p>
+            <p class="bgc-blue">bgc-blue</p>
+            <p class="bgc-boysenberry">bgc-boysenberry</p>
+            <p class="bgc-brass">bgc-brass</p>
+            <p class="bgc-bronze">bgc-bronze</p>
+            <p class="bgc-bubblegum">bgc-bubblegum</p>
+            <p class="bgc-burgundy">bgc-burgundy</p>
+            <p class="bgc-byzantium">bgc-byzantium</p>
+            <p class="bgc-candyapplered">bgc-candyapplered</p>
+            <p class="bgc-carmine">bgc-carmine</p>
+            <p class="bgc-carnationpink">bgc-carnationpink</p>
+            <p class="bgc-celadon">bgc-celadon</p>
+            <p class="bgc-cerise">bgc-cerise</p>
+            <p class="bgc-cerulean">bgc-cerulean</p>
+            <p class="bgc-champagne">bgc-champagne</p>
+            <p class="bgc-charcoal">bgc-charcoal</p>
+            <p class="bgc-cinnabar">bgc-cinnabar</p>
+            <p class="bgc-citrine">bgc-citrine</p>
+            <p class="bgc-claret">bgc-claret</p>
+            <p class="bgc-cobaltblue">bgc-cobaltblue</p>
+            <p class="bgc-coffee">bgc-coffee</p>
+            <p class="bgc-copper">bgc-copper</p>
+            <p class="bgc-coralpink">bgc-coralpink</p>
+            <p class="bgc-creme">bgc-creme</p>
+            <p class="bgc-cyan">bgc-cyan</p>
+            <p class="bgc-denim">bgc-denim</p>
+            <p class="bgc-ebony">bgc-ebony</p>
+            <p class="bgc-emerald">bgc-emerald</p>
+            <p class="bgc-eggplant">bgc-eggplant</p>
+            <p class="bgc-fern">bgc-fern</p>
+            <p class="bgc-fireengine">bgc-fireengine</p>
+            <p class="bgc-flax">bgc-flax</p>
+            <p class="bgc-folly">bgc-folly</p>
+            <p class="bgc-glaucous">bgc-glaucous</p>
+            <p class="bgc-goldenyellow">bgc-goldenyellow</p>
+            <p class="bgc-grullo">bgc-grullo</p>
+            <p class="bgc-halayaube">bgc-halayaube</p>
+            <p class="bgc-harvestgold">bgc-harvestgold</p>
+            <p class="bgc-heliotrope">bgc-heliotrope</p>
+            <p class="bgc-iris">bgc-iris</p>
+            <p class="bgc-jade">bgc-jade</p>
+            <p class="bgc-jasmine">bgc-jasmine</p>
+            <p class="bgc-jet">bgc-jet</p>
+            <p class="bgc-jungle">bgc-jungle</p>
+            <p class="bgc-keppel">bgc-keppel</p>
+            <p class="bgc-kobi">bgc-kobi</p>
+            <p class="bgc-lavendergray">bgc-lavendergray</p>
+            <p class="bgc-lemon">bgc-lemon</p>
+            <p class="bgc-licorice">bgc-licorice</p>
+            <p class="bgc-lust">bgc-lust</p>
+            <p class="bgc-magenta">bgc-magenta</p>
+            <p class="bgc-magnolia">bgc-magnolia</p>
+            <p class="bgc-malachite">bgc-malachite</p>
+            <p class="bgc-maroon">bgc-maroon</p>
+            <p class="bgc-mauve">bgc-mauve</p>
+            <p class="bgc-maya">bgc-maya</p>
+            <p class="bgc-meadow">bgc-meadow</p>
+            <p class="bgc-melon">bgc-melon</p>
+            <p class="bgc-metallic">bgc-metallic</p>
+            <p class="bgc-mulberry">bgc-mulberry</p>
+            <p class="bgc-navy">bgc-navy</p>
+            <p class="bgc-ochre">bgc-ochre</p>
+            <p class="bgc-onyx">bgc-onyx</p>
+            <p class="bgc-opal">bgc-opal</p>
+            <p class="bgc-outerspace">bgc-outerspace</p>
+            <p class="bgc-oxford">bgc-oxford</p>
+            <p class="bgc-pansy">bgc-pansy</p>
+            <p class="bgc-pearl">bgc-pearl</p>
+            <p class="bgc-periwinkle">bgc-periwinkle</p>
+            <p class="bgc-phlox">bgc-phlox</p>
+            <p class="bgc-pistachio">bgc-pistachio</p>
+            <p class="bgc-puce">bgc-puce</p>
+            <p class="bgc-radicalred">bgc-radicalred</p>
+            <p class="bgc-rose">bgc-rose</p>
+            <p class="bgc-rubine">bgc-rubine</p>
+            <p class="bgc-ruby">bgc-ruby</p>
+            <p class="bgc-sapphire">bgc-sapphire</p>
+            <p class="bgc-scarlet">bgc-scarlet</p>
+            <p class="bgc-sunglow">bgc-sunglow</p>
+            <p class="bgc-taffy">bgc-taffy</p>
+            <p class="bgc-tangerine">bgc-tangerine</p>
+            <p class="bgc-taupe">bgc-taupe</p>
+            <p class="bgc-teal">bgc-teal</p>
+            <p class="bgc-topaz">bgc-topaz</p>
+            <p class="bgc-umber">bgc-umber</p>
+            <p class="bgc-vermilion">bgc-vermilion</p>
+            <p class="bgc-violetred">bgc-violetred</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Display</h2>
+            <p>flex = display: flex;</p>
+            <p>inline-flex = display: inline-flex;</p>
+            <p>block = display: block;</p>
+            <p>inline-block = display: inline-block;</p>
+            <p>inline = display: inline;</p>
+            <p>grid = display: grid;</p>
+            <p>inline-grid = display: inline-grid;</p>
+            <p>table = display: table;</p>
+            <p>table-row = display: table-row;</p>
+            <p>table-cell = display: table-cell;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Justify content</h2>
+            <p>jc-center = justify-content: center;</p>
+            <p>jc-start = justify-content: flex-start;</p>
+            <p>jc-end = justify-content: flex-end;</p>
+            <p>jc-between = justify-content: space-between;</p>
+            <p>jc-around = justify-content: space-around;</p>
+            <p>jc-evenly = justify-content: space-evenly;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Text</h2>
+            <p>text-center = text-align: center;</p>
+            <p>text-end = text-align: flex-end;</p>
+            <p>text-right = text-align: right;</p>
+            <p>text-justify = text-align: justify;</p>
+            <p>text-decoration-none = text-decoration: none;</p>
+            <p>text-decoration-underline = text-decoration: underline;</p>
+            <p>list-none = list-style: none;</p>
+            <p>align-center = align-items: center;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Font Size</h2>
+            <p>text-5 = font-size: 5px;</p>
+            <p>text-8 = font-size: 8px;</p>
+            <p>text-10 = font-size: 10px;</p>
+            <p>text-12 = font-size: 12px;</p>
+            <p>text-14 = font-size: 14px;</p>
+            <p>text-16 = font-size: 16px;</p>
+            <p>text-18 = font-size: 18px;</p>
+            <p>text-20 = font-size: 20px;</p>
+            <p>text-24 = font-size: 24px;</p>
+            <p>text-30 = font-size: 30px;</p>
+            <p>text-36 = font-size: 36px;</p>
+            <p>text-48 = font-size: 48px;</p>
+            <p>text-50 = font-size: 50px;</p>
+            <p>text-70 = font-size: 70px;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Font Weight</h2>
+            <p>fw-1 = font-weight: 100;</p>
+            <p>fw-3 = font-weight: 300;</p>
+            <p>fw-4 = font-weight: 400;</p>
+            <p>fw-5 = font-weight: 500;</p>
+            <p>fw-6 = font-weight: 600;</p>
+            <p>fw-7 = font-weight: 700;</p>
+            <p>fw-8 = font-weight: 800;</p>
+            <p>fw-9 = font-weight: 900;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Font Family</h2>
+            <p>f-poppins</p>
+            <p>f-roboto</p>
+            <p>f-kanit</p>
+            <p>f-opensans</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Border Radius</h2>
+            <p>border-r-none = border-radius: none;</p>
+            <p>border-r-05 = border-radius: 5px;</p>
+            <p>border-r-1 = border-radius: 10px;</p>
+            <p>border-r-2 = border-radius: 20px;</p>
+            <p>border-r-3 = border-radius: 30px;</p>
+            <p>border-r-4 = border-radius: 40px;</p>
+            <p>border-r-5 = border-radius: 50px;</p>
+            <p>border-r-6 = border-radius: 60px;</p>
+            <p>border-r-7 = border-radius: 70px;</p>
+            <p>border-r-8 = border-radius: 80px;</p>
+            <p>border-r-9 = border-radius: 90px;</p>
+            <p>border-r-full = border-radius: 100%;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Gap</h2>
+            <p>gap-5 = gap: 5px;</p>
+            <p>gap-10 = gap: 10px;</p>
+            <p>gap-20 = gap: 20px;</p>
+            <p>gap-30 = gap: 30px;</p>
+            <p>gap-40 = gap: 40px;</p>
+            <p>gap-50 = gap: 50px;</p>
+            <p>gap-60 = gap: 60px;</p>
+            <p>gap-70 = gap: 70px;</p>
+            <p>gap-80 = gap: 80px;</p>
+            <p>gap-90 = gap: 90px;</p>
+            <p>gap-100 = gap: 100px;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Width</h2>
+            <p>w-1 = width: 10%;</p>
+            <p>w-2 = width: 20%;</p>
+            <p>w-3 = width: 30%;</p>
+            <p>w-4 = width: 40%;</p>
+            <p>w-5 = width: 50%;</p>
+            <p>w-6 = width: 60%;</p>
+            <p>w-7 = width: 70%;</p>
+            <p>w-8 = width: 80%;</p>
+            <p>w-9 = width: 90%;</p>
+            <p>w-full = width: 100%;</p>
+            <p>w-1px = width: 10px;</p>
+            <p>w-2px = width: 20px;</p>
+            <p>w-3px = width: 30px;</p>
+            <p>w-4px = width: 40px;</p>
+            <p>w-5px = width: 50px;</p>
+            <p>w-6px = width: 60px;</p>
+            <p>w-7px = width: 70px;</p>
+            <p>w-8px = width: 80px;</p>
+            <p>w-9px = width: 90px;</p>
+            <p>w-fpx = width: 100px;</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Height</h2>
+            <p>h-1 = height: 10%</p>
+            <p>h-2 = height: 20%</p>
+            <p>h-3 = height: 30%</p>
+            <p>h-4 = height: 40%</p>
+            <p>h-5 = height: 50%</p>
+            <p>h-6 = height: 60%</p>
+            <p>h-7 = height: 70%</p>
+            <p>h-8 = height: 80%</p>
+            <p>h-9 = height: 90%</p>
+            <p>h-full = height: 100%</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Position</h2>
+            <p>absolute = position: absolute</p>
+            <p>relative = position: relative</p>
+            <p>fixed = position: fixed</p>
+            <p>sticky = position: sticky</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>OverFlow</h2>
+            <p>overflow-hidden = overflow: hidden</p>
+            <p>overflow-auto = overflow: auto</p>
+            <p>overflow-scroll = overflow: scroll</p>
+            <p>overflow-visible = overflow: visible</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Cursor</h2>
+            <p>cursor-pointer = cursor: pointer</p>
+            <p>cursor-default = cursor: default</p>
+            <p>cursor-move = cursor: move</p>
+            <p>cursor-not-allowed = cursor: not-allowed;</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Flexbox</h2>
+            <p>flex-row flex-direction: row</p>
+            <p>flex-row-reverse  flex-direction: row-reverse</p>
+            <p>flex-col flex-direction: column</p>
+            <p>flex-col-reverse flex-direction: column-reverse</p>
+            <p>flex-wrap flex-wrap: wrap</p>
+            <p>flex-nowrap flex-wrap: nowrap</p>
+            <p>flex-wrap-reverse flex-wrap: wrap-reverse</p>
+            <p>items-start align-items: flex-start</p>
+            <p>items-end align-items: flex-end</p>
+            <p>items-center align-items: center</p>
+            <p>items-baseline align-items: baseline</p>
+            <p>items-stretch align-items: stretch</p>
+            <p>self-auto align-self: auto</p>
+            <p>self-start align-self: flex-start</p>
+            <p>self-end align-self: flex-end</p>
+            <p>self-center align-self: center</p>
+            <p>self-stretch align-self: stretch</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Shadow box</h2>
+            <p>sh-box-10-black = box-shadow: 0 0 10px black</p>
+            <p>sh-box-20-black = box-shadow: 0 0 20px black</p>
+            <p>sh-box-30-black = box-shadow: 0 0 30px black</p>
+            <p>sh-box-40-black = box-shadow: 0 0 40px black</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" id="comment" class="code">
+            <h2>Comment</h2>
+            <p>#good x 10</p>
+            <p>#bad x 2</p>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="code">
+            <h2>Developer</h2>
+            <p>My name is Audryan Virga Rakha Kumara</p>
+            <p>im from indonesia</p>
+            <p>im studying in SMKN 6 JEMBER</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="ftr">
+        <div class="ftrbox">
+          <div class="boxd">
+            <img src="img/logo.png" alt="" />
+            <h1>Novacss</h1>
+          </div>
+          <p>Desain dan dikembangkan dengan tujuan untuk membantu frontend developer dengan menjadikan perkerjaan menadi singkat.</p>
+          <p>Code licensed ALT, docs PTRAWR</p>
+          <p>Currently v1.02</p>
+        </div>
+      </div>
+
+    <script>
+      function navbar() {
+        const hide = document.getElementById("nav");
+        hide.classList.toggle("hidden");
+      }
+    </script>
+  </body>
+</html>
